@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,8 +13,11 @@
     </header>
     <main>
         <div class="wrapper">
-            <h2>Loading...</h2>
-            <button>Click here to copy</button>
+            <h2 id="string">Loading...</h2>
+            <div id="buttons">
+                <button onclick="clickToCopy()">Click here to copy</button>
+                <button onclick="reGenerate()">New</button>
+            </div>
         </div>
     </main>
     <footer>
