@@ -26,10 +26,19 @@ main div div button{
     width: 200px;
     height: 30px;
 }
+main div #configuration{
+  font-size: 1rem;
+} 
 main div button:active{
     background-color: rgb(68, 170, 68);
 }
 footer{
     font-size: 1.2rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer svg{
+  margin-left: 10px;
 }
