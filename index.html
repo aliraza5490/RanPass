@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<header>
-			<h1>Random Password Generator</h1>
+			<h1>Random Password <br> Generator</h1>
 		</header>
 		<main>
 			<div class="wrapper">
@@ -32,11 +32,22 @@
 						required="true"
 						value="8"
 					/>
+					<div class="includes">
+						<input type="checkbox" checked="true" id="small">
+						<label for="small">Small letters</label>
+						<input type="checkbox" checked="true" id="cap">
+						<label for="cap">Capital letters</label>
+						<input type="checkbox" checked="true" id="numbers">
+						<label for="numbers">Numbers</label>
+						<input type="checkbox" checked="true" id="symbols">
+						<label for="symbols">Symbols</label>
+					</div>
 				</div>
 				<div id="buttons">
 					<button id="copy-btn">Click here to copy</button>
 					<button id="new-btn">New</button>
 				</div>
+				<p>Tip: You can also use "space bar" to generate and "c" to copy.</p>
 			</div>
 		</main>
 		<footer>
