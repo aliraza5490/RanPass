@@ -7,6 +7,10 @@ body {
   background-color: rgb(60, 60, 60);
   color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 header{
   margin-top: 12vh;
@@ -14,6 +18,9 @@ header{
 h1 {
   font-size: 3rem;
   text-align: center;
+}
+h2{
+  margin-top: 1rem;
 }
 main {
   font-size: 3rem;
@@ -52,4 +59,24 @@ footer{
 }
 footer svg{
   margin-left: 10px;
+}
+@media screen and (max-width: 426px){
+  header{
+    margin-top: 5vh;
+  }
+  h1, h2{
+    font-size: 2rem;
+  }
+  main{
+    font-size: 1.5rem;
+  }
+  main p{
+    font-size: 1rem;
+  }
+  main label{
+    font-size: 1.2rem;
+  }
+  button{
+    width: 100px;
+  }
 }
