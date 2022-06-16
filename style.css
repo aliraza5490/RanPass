@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Fira Code";
+  font-family: "Fira Code", sans-serif;
   background-color: rgb(60, 60, 60);
   color: white;
   text-align: center;
