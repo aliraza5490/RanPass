@@ -71,11 +71,11 @@ footer {
 
 footer p  a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 footer p a:hover {
-  color: rgb(206, 206, 206);
+  color: rgb(53, 53, 53);
 }
 
 @media screen and (max-width: 426px) {
