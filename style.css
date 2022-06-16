@@ -69,12 +69,12 @@ footer {
   justify-content: center;
 }
 
-footer a {
+footer p  a {
   text-decoration: none;
   color: white;
 }
 
-footer a:hover {
+footer p a:hover {
   color: rgb(206, 206, 206);
 }
 
