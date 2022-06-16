@@ -5,6 +5,7 @@ const symbols = '!@#$%^&*'.split('');
 const copy_btn=document.getElementById("length");
 const numbers = "123456789".split("");
 let passElements = [];
+
 function validate(){
 	const configurationElems = document.querySelectorAll("input[type='checkbox']");
 	passElements = [];
@@ -29,6 +30,7 @@ function validate(){
 		}
 	})
 }
+
 function randomNumberGenerator(min, max) {  
     return Math.floor(Math.random() * (max - min) + min); 
 }
@@ -71,6 +73,7 @@ function clickToCopy() {
 	navigator.clipboard.writeText(passString)
     .catch(err => console.log('Async writeText failed with error: "' + err + '"'));
 }
+
 document.addEventListener('keypress', (event) => {
   const keyName = event.code;
   if(keyName == "Space"){
@@ -81,4 +84,5 @@ document.addEventListener('keypress', (event) => {
 	copy_btn.focus();  	
   }
 });
+
 copy_btn.focus(); 
